@@ -1,0 +1,67 @@
+.logo {
+  width: 50px;
+}
+div.bg-warning {
+  background-color: red !important;
+}
+.logoimg {
+  width: 50px;
+}
+.d-block {
+  height: 400px;
+}
+.cardo {
+    justify-content: center;
+    align-items: center;
+  width: 250px;
+  background-color: saddlebrown !important;
+  height: 70px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px black;
+}
+.parent {
+   flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+
+  /* padding: 20px; */
+}
+@media screen and (max-width: 600px) {
+    .cardo {
+      width: 100%;
+    }
+  }
+.newprod{
+    margin-top:10px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid gray;
+}
+footer > div{
+    text-transform: capitalize;
+    font-size: 40px;
+    
+}
+
+  /* .father{
+      height: 500px;
+     align-items: center;
+     justify-content: center;
+
+      background-color: crimson;
+display: flex;
+flex-direction:row;
+
+  } */
+
+  /* .child{
+      border: 1px solid black;
+      width: 60px;
+      height: 60px;
+      background-color: chartreuse;
+  } */
